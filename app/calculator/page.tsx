@@ -403,7 +403,7 @@ export default function Home() {
             {/* Income */}
             <div>
               <h2 className="text-lg font-bold text-gray-600">
-                Your total income today should be:{" "}
+                Your  <span className="italic text-[#0f3471]">gross</span>  income today should be:{" "}
                 <span className="font-bold text-2xl">
                   {earningsResult
                     ? `$${earningsResult.grossPay.toFixed(2)}`
